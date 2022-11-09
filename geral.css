@@ -2,7 +2,16 @@
     background: rgb(115, 165, 146);
     width: 200px;
     padding: 20px;
-    
+    text-align: center;
+}
+.calcF{
+    display: none;
+}
+#calcFin{
+    display: none;
+}
+#calcFin:checked + .calculadora .calcF {
+    display: block;
 }
 #btnCalc {
     background: rgb(171, 2, 250);
